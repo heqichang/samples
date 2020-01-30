@@ -25,7 +25,7 @@ example, to run the macOS app:
 ```
 cd gallery/
 flutter config --enable-macos-desktop
-flutter create --org io.flutter .
+flutter create .
 flutter run -d macos
 ```
 
@@ -65,7 +65,7 @@ for more details):
 flutter pub run grinder l10n
 ```
 
-To generate code segments (see separate [README](codeviewer_cli/README.md) for
+To generate code segments (see separate [README](gallery/tool/codeviewer_cli/README.md) for
 more details):
 ```
 flutter pub run grinder update-code-segments

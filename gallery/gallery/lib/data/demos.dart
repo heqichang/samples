@@ -40,6 +40,7 @@ import 'package:gallery/demos/material/tabs_demo.dart';
 import 'package:gallery/demos/material/text_field_demo.dart';
 import 'package:gallery/demos/material/tooltip_demo.dart';
 import 'package:gallery/demos/reference/colors_demo.dart';
+import 'package:gallery/demos/reference/transformations_demo.dart';
 import 'package:gallery/demos/reference/typography_demo.dart';
 import 'package:gallery/l10n/gallery_localizations.dart';
 import 'package:gallery/themes/material_demo_theme_data.dart';
@@ -524,11 +525,18 @@ List<GalleryDemo> materialDemos(BuildContext context) {
       subtitle: localizations.demoTabsSubtitle,
       configurations: [
         GalleryDemoConfiguration(
-          title: localizations.demoTabsTitle,
+          title: localizations.demoTabsScrollingTitle,
           description: localizations.demoTabsDescription,
-          documentationUrl: '$_docsBaseUrl/material/TabBarView-class.html',
-          buildRoute: (context) => TabsDemo(),
-          code: CodeSegments.tabsDemo,
+          documentationUrl: '$_docsBaseUrl/material/TabBar-class.html',
+          buildRoute: (context) => TabsDemo(type: TabsDemoType.scrollable),
+          code: CodeSegments.tabsScrollableDemo,
+        ),
+        GalleryDemoConfiguration(
+          title: localizations.demoTabsNonScrollingTitle,
+          description: localizations.demoTabsDescription,
+          documentationUrl: '$_docsBaseUrl/material/TabBar-class.html',
+          buildRoute: (context) => TabsDemo(type: TabsDemoType.nonScrollable),
+          code: CodeSegments.tabsNonScrollableDemo,
         ),
       ],
     ),
@@ -797,6 +805,20 @@ List<GalleryDemo> referenceDemos(BuildContext context) {
           documentationUrl: '$_docsBaseUrl/material/TextTheme-class.html',
           buildRoute: (_) => TypographyDemo(),
           code: CodeSegments.typographyDemo,
+        ),
+      ],
+    ),
+    GalleryDemo(
+      title: localizations.demo2dTransformationsTitle,
+      icon: GalleryIcons.gridOn,
+      subtitle: localizations.demo2dTransformationsSubtitle,
+      configurations: [
+        GalleryDemoConfiguration(
+          title: localizations.demo2dTransformationsTitle,
+          description: localizations.demo2dTransformationsDescription,
+          documentationUrl: '$_docsBaseUrl/widgets/GestureDetector-class.html',
+          buildRoute: (_) => TransformationsDemo(),
+          code: CodeSegments.transformationsDemo,
         ),
       ],
     ),

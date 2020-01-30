@@ -1035,7 +1035,7 @@
   "@demoFullscreenDialogDescription": {
     "description": "Description for the fullscreen dialog component demo."
   },
-  "demoCupertinoActivityIndicatorTitle": "Activity Indicator",
+  "demoCupertinoActivityIndicatorTitle": "Activity indicator",
   "@demoCupertinoActivityIndicatorTitle": {
     "description": "Title for the cupertino activity indicator component demo."
   },
@@ -1095,7 +1095,7 @@
   "@demoCupertinoActionSheetDescription": {
     "description": "Description for the cupertino action sheet component demo."
   },
-  "demoCupertinoNavigationBarTitle": "Navigation Bar",
+  "demoCupertinoNavigationBarTitle": "Navigation bar",
   "@demoCupertinoNavigationBarTitle": {
     "description": "Title for the cupertino navigation bar component demo."
   },
@@ -1135,7 +1135,7 @@
   "@demoCupertinoPickerDateTime": {
     "description": "Label to open a date and time picker."
   },
-  "demoCupertinoPullToRefreshTitle": "Pull To Refresh",
+  "demoCupertinoPullToRefreshTitle": "Pull to refresh",
   "@demoCupertinoPullToRefreshTitle": {
     "description": "Title for the cupertino pull-to-refresh component demo."
   },
@@ -1147,7 +1147,7 @@
   "@demoCupertinoPullToRefreshDescription": {
     "description": "Description for the cupertino pull-to-refresh component demo."
   },
-  "demoCupertinoSegmentedControlTitle": "Segmented Control",
+  "demoCupertinoSegmentedControlTitle": "Segmented control",
   "@demoCupertinoSegmentedControlTitle": {
     "description": "Title for the cupertino segmented control component demo."
   },
@@ -1197,7 +1197,7 @@
   "@demoCupertinoSwitchDescription": {
     "description": "Description for the cupertino switch component demo."
   },
-  "demoCupertinoTabBarTitle": "Tab Bar",
+  "demoCupertinoTabBarTitle": "Tab bar",
   "@demoCupertinoTabBarTitle": {
     "description": "Title for the cupertino bottom tab bar demo."
   },
@@ -1221,7 +1221,7 @@
   "@cupertinoTabBarProfileTab": {
     "description": "Title for the profile tab in the bottom tab bar demo."
   },
-  "demoCupertinoTextFieldTitle": "Text Fields",
+  "demoCupertinoTextFieldTitle": "Text fields",
   "@demoCupertinoTextFieldTitle": {
     "description": "Title for the cupertino text field demo."
   },
@@ -1260,6 +1260,26 @@
   "demoTypographyDescription": "Definitions for the various typographical styles found in Material Design.",
   "@demoTypographyDescription": {
     "description": "Description for the typography demo. Material Design should remain capitalized."
+  },
+  "demo2dTransformationsTitle": "2D transformations",
+  "@demo2dTransformationsTitle": {
+    "description": "Title for the 2D transformations demo."
+  },
+  "demo2dTransformationsSubtitle": "Pan, zoom, rotate",
+  "@demo2dTransformationsSubtitle": {
+    "description": "Subtitle for the 2D transformations demo."
+  },
+  "demo2dTransformationsDescription": "Tap to edit tiles, and use gestures to move around the scene. Drag to pan, pinch to zoom, rotate with two fingers. Press the reset button to return to the starting orientation.",
+  "@demo2dTransformationsDescription": {
+    "description": "Description for the 2D transformations demo."
+  },
+  "demo2dTransformationsResetTooltip": "Reset transformations",
+  "@demo2dTransformationsResetTooltip": {
+    "description": "Tooltip for a button to reset the transformations (scale, translation) for the 2D transformations demo."
+  },
+  "demo2dTransformationsEditTooltip": "Edit tile",
+  "@demo2dTransformationsEditTooltip": {
+    "description": "Tooltip for a button to edit a tile."
   },
   "buttonText": "BUTTON",
   "@buttonText": {
@@ -1389,6 +1409,14 @@
   "demoTabsTitle": "Tabs",
   "@demoTabsTitle": {
     "description": "Title for tabs demo."
+  },
+  "demoTabsScrollingTitle": "Scrolling",
+  "@demoTabsScrollingTitle": {
+    "description": "Title for tabs demo with a tab bar that scrolls."
+  },
+  "demoTabsNonScrollingTitle": "Non-scrolling",
+  "@demoTabsNonScrollingTitle": {
+    "description": "Title for tabs demo with a tab bar that doesn't scroll."
   },
   "demoTabsSubtitle": "Tabs with independently scrollable views",
   "@demoTabsSubtitle": {

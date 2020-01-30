@@ -976,7 +976,7 @@
   <string
     name="demoCupertinoActivityIndicatorTitle"
     description="Title for the cupertino activity indicator component demo."
-    >Activity Indicator</string>
+    >Activity indicator</string>
   <string
     name="demoCupertinoActivityIndicatorSubtitle"
     description="Subtitle for the cupertino activity indicator component demo."
@@ -1036,7 +1036,7 @@
   <string
     name="demoCupertinoNavigationBarTitle"
     description="Title for the cupertino navigation bar component demo."
-    >Navigation Bar</string>
+    >Navigation bar</string>
   <string
     name="demoCupertinoNavigationBarSubtitle"
     description="Subtitle for the cupertino navigation bar component demo."
@@ -1076,7 +1076,7 @@
   <string
     name="demoCupertinoPullToRefreshTitle"
     description="Title for the cupertino pull-to-refresh component demo."
-    >Pull To Refresh</string>
+    >Pull to refresh</string>
   <string
     name="demoCupertinoPullToRefreshSubtitle"
     description="Subtitle for the cupertino pull-to-refresh component demo."
@@ -1088,7 +1088,7 @@
   <string
     name="demoCupertinoSegmentedControlTitle"
     description="Title for the cupertino segmented control component demo."
-    >Segmented Control</string>
+    >Segmented control</string>
   <string
     name="demoCupertinoSegmentedControlSubtitle"
     description="Subtitle for the cupertino segmented control component demo."
@@ -1128,7 +1128,7 @@
   <string
     name="demoCupertinoTabBarTitle"
     description="Title for the cupertino bottom tab bar demo."
-    >Tab Bar</string>
+    >Tab bar</string>
   <string
     name="demoCupertinoTabBarSubtitle"
     description="Subtitle for the cupertino bottom tab bar demo."
@@ -1152,7 +1152,7 @@
   <string
     name="demoCupertinoTextFieldTitle"
     description="Title for the cupertino text field demo."
-    >Text Fields</string>
+    >Text fields</string>
   <string
     name="demoCupertinoTextFieldSubtitle"
     description="Subtitle for the cupertino text field demo."
@@ -1189,6 +1189,26 @@
     name="demoTypographyDescription"
     description="Description for the typography demo. Material Design should remain capitalized."
     >Definitions for the various typographical styles found in Material Design.</string>
+  <string
+    name="demo2dTransformationsTitle"
+    description="Title for the 2D transformations demo."
+    >2D transformations</string>
+  <string
+    name="demo2dTransformationsSubtitle"
+    description="Subtitle for the 2D transformations demo."
+    >Pan, zoom, rotate</string>
+  <string
+    name="demo2dTransformationsDescription"
+    description="Description for the 2D transformations demo."
+    >Tap to edit tiles, and use gestures to move around the scene. Drag to pan, pinch to zoom, rotate with two fingers. Press the reset button to return to the starting orientation.</string>
+  <string
+    name="demo2dTransformationsResetTooltip"
+    description="Tooltip for a button to reset the transformations (scale, translation) for the 2D transformations demo."
+    >Reset transformations</string>
+  <string
+    name="demo2dTransformationsEditTooltip"
+    description="Tooltip for a button to edit a tile."
+    >Edit tile</string>
   <string
     name="buttonText"
     description="Text for a generic button."
@@ -1313,6 +1333,14 @@
     name="demoTabsTitle"
     description="Title for tabs demo."
     >Tabs</string>
+  <string
+    name="demoTabsScrollingTitle"
+    description="Title for tabs demo with a tab bar that scrolls."
+    >Scrolling</string>
+  <string
+    name="demoTabsNonScrollingTitle"
+    description="Title for tabs demo with a tab bar that doesn&apos;t scroll."
+    >Non-scrolling</string>
   <string
     name="demoTabsSubtitle"
     description="Subtitle for tabs demo."

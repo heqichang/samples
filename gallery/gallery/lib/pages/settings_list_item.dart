@@ -185,18 +185,17 @@ class _SettingsListItemState<T> extends State<SettingsListItem<T>>
   @override
   Widget build(BuildContext context) {
     _handleExpansion();
-    final closed = !widget.isExpanded && _controller.isDismissed;
     final theme = Theme.of(context);
 
-    final optionsList = <Widget>[];
+    final optionWidgetsList = <Widget>[];
 
     widget.options.forEach(
-      (optionValue, optionDisplay) => optionsList.add(
+      (optionValue, optionDisplay) => optionWidgetsList.add(
         RadioListTile<T>(
           value: optionValue,
           title: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: <Widget>[
+            children: [
               Text(
                 optionDisplay.title,
                 style: theme.textTheme.body2.copyWith(
@@ -227,25 +226,23 @@ class _SettingsListItemState<T> extends State<SettingsListItem<T>>
     return AnimatedBuilder(
       animation: _controller.view,
       builder: _buildHeaderWithChildren,
-      child: closed
-          ? null
-          : Container(
-              margin: const EdgeInsetsDirectional.only(start: 24, bottom: 40),
-              decoration: BoxDecoration(
-                border: BorderDirectional(
-                  start: BorderSide(
-                    width: 2,
-                    color: theme.colorScheme.background,
-                  ),
-                ),
-              ),
-              child: ListView.builder(
-                shrinkWrap: true,
-                physics: NeverScrollableScrollPhysics(),
-                itemBuilder: (context, index) => optionsList[index],
-                itemCount: optionsList.length,
-              ),
+      child: Container(
+        margin: const EdgeInsetsDirectional.only(start: 24, bottom: 40),
+        decoration: BoxDecoration(
+          border: BorderDirectional(
+            start: BorderSide(
+              width: 2,
+              color: theme.colorScheme.background,
             ),
+          ),
+        ),
+        child: ListView.builder(
+          shrinkWrap: true,
+          physics: NeverScrollableScrollPhysics(),
+          itemBuilder: (context, index) => optionWidgetsList[index],
+          itemCount: optionWidgetsList.length,
+        ),
+      ),
     );
   }
 }
